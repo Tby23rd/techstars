@@ -1,9 +1,6 @@
 "use client";
 
 import React from 'react';
-import Slider from 'react-slick';
-import 'slick-carousel/slick/slick.css';
-import 'slick-carousel/slick/slick-theme.css';
 import Image from 'next/image';
 
 interface Product {
@@ -60,34 +57,18 @@ const productsData: Product[] = [
 ];
 
 const FeaturedProducts: React.FC = () => {
-  const settings = {
-    dots: true,
-    infinite: true,
-    speed: 500,
-    slidesToShow: 3,
-    slidesToScroll: 1,
-  };
-
   return (
     <div id="FeaturedProducts" className="shadow rounded-lg m-4 p-5">
       <h1 className="text-3xl text-blue-900 font-bold text-center mb-5">Featured Products</h1>
-      <div className="rounded-lg p-5">
-        <Slider {...settings}>
-          {productsData.map((product) => (
-            <div key={product.id} className="text-center">
-              <Image src={product.imageUrl}
-               alt={product.name} width={200} 
-               height={200} className="mx-auto " />
-              <h2 className="text-xl font-bold text-gray-800 mt-4">{product.name}</h2>
-              <p className="text-lg text-gray-600 mt-2">
-                Price: ${product.selling_price.toFixed(2)}
-              </p>
-              <p className="text-sm text-gray-600 mt-4">
-                {product.description}
-              </p>
-            </div>
-          ))}
-        </Slider>
+      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+        {productsData.map((product) => (
+          <div key={product.id} className="text-center border rounded-lg p-4 shadow">
+            <Image src={product.imageUrl} alt={product.name} width={200} height={200} className="mx-auto" />
+            <h2 className="text-xl font-bold text-gray-800 mt-4">{product.name}</h2>
+            <p className="text-lg text-gray-600 mt-2">Price: ${product.selling_price.toFixed(2)}</p>
+            <p className="text-sm text-gray-600 mt-4">{product.description}</p>
+          </div>
+        ))}
       </div>
     </div>
   );
