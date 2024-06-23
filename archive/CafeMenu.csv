@@ -1,0 +1,51 @@
+Item Type,Item Name,Type,Sizes,Prices
+Coffee,Espresso,Hot,Small,5.0
+Coffee,Espresso,Hot,Medium,5.5
+Coffee,Americano,Hot,Small,5.0
+Coffee,Americano,Hot,Medium,5.5
+Coffee,Americano,Iced,Small,5.0
+Coffee,Americano,Iced,Medium,5.5
+Coffee,Americano,Iced,Large,6.0
+Coffee,Latte,Hot,Small,6.0
+Coffee,Latte,Hot,Medium,6.5
+Coffee,Latte,Hot,Large,7.0
+Coffee,Latte,Iced,Small,6.0
+Coffee,Latte,Iced,Medium,6.5
+Coffee,Latte,Iced,Large,7.0
+Coffee,Cappuccino,Hot,Small,5.5
+Coffee,Cappuccino,Hot,Medium,6.0
+Coffee,Mocha,Hot,Small,6.0
+Coffee,Mocha,Hot,Medium,6.5
+Coffee,Mocha,Hot,Large,7.0
+Coffee,Mocha,Iced,Small,6.0
+Coffee,Mocha,Iced,Medium,6.5
+Coffee,Mocha,Iced,Large,7.0
+Coffee,Flat White,Hot,Medium,6.5
+Coffee,Flat White,Hot,Large,7.0
+Tea,Green Tea,Hot,Small,5.0
+Tea,Green Tea,Hot,Medium,5.5
+Tea,Green Tea,Hot,Large,6.0
+Tea,Black Tea,Hot,Small,5.0
+Tea,Black Tea,Hot,Medium,5.5
+Tea,Black Tea,Hot,Large,6.0
+Tea,Chai Latte,Hot,Small,6.0
+Tea,Chai Latte,Hot,Medium,6.5
+Tea,Chai Latte,Hot,Large,7.0
+Tea,Herbal Tea,Hot,Small,5.5
+Tea,Herbal Tea,Hot,Medium,6.0
+Tea,Herbal Tea,Hot,Large,6.5
+Tea,Earl Grey,Hot,Small,5.0
+Tea,Earl Grey,Hot,Medium,5.5
+Tea,Peppermint Tea,Hot,Small,5.5
+Tea,Peppermint Tea,Hot,Medium,6.0
+Tea,Peppermint Tea,Hot,Large,6.5
+Pastry,Croissant,Pastry,5.0
+Pastry,Cinnamon Roll,Pastry,5.5
+Pastry,Blueberry Muffin,Muffin,5.0
+Pastry,Chocolate Chip Cookie,Cookie,4.5
+Pastry,Apple Turnover,Pastry,5.0
+Food,Club Sandwich,Sandwich,12.0
+Food,Caprese Salad,Salad,10.0
+Food,Vegetarian Quiche,Quiche,9.5
+Food,Chicken Caesar Wrap,Wrap,11.0
+Food,Spinach and Feta Pie,Pie,10.5

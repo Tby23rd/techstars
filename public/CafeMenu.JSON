@@ -1,0 +1,170 @@
+{
+    "menu": [{
+            "itemType": "Coffee",
+            "itemName": "Espresso",
+            "type": "Hot",
+            "sizes": ["Small", "Medium"],
+            "prices": { "Small": 5.0, "Medium": 5.5 }
+        },
+        {
+            "itemType": "Coffee",
+            "itemName": "Americano",
+            "type": "Hot",
+            "sizes": ["Small", "Medium"],
+            "prices": { "Small": 5.0, "Medium": 5.5 }
+        },
+        {
+            "itemType": "Coffee",
+            "itemName": "Americano",
+            "type": "Iced",
+            "sizes": ["Small", "Medium", "Large"],
+            "prices": { "Small": 5.0, "Medium": 5.5, "Large": 6.0 }
+        },
+        {
+            "itemType": "Coffee",
+            "itemName": "Latte",
+            "type": "Hot",
+            "sizes": ["Small", "Medium", "Large"],
+            "prices": { "Small": 6.0, "Medium": 6.5, "Large": 7.0 }
+        },
+        {
+            "itemType": "Coffee",
+            "itemName": "Latte",
+            "type": "Iced",
+            "sizes": ["Small", "Medium", "Large"],
+            "prices": { "Small": 6.0, "Medium": 6.5, "Large": 7.0 }
+        },
+        {
+            "itemType": "Coffee",
+            "itemName": "Cappuccino",
+            "type": "Hot",
+            "sizes": ["Small", "Medium"],
+            "prices": { "Small": 5.5, "Medium": 6.0 }
+        },
+        {
+            "itemType": "Coffee",
+            "itemName": "Mocha",
+            "type": "Hot",
+            "sizes": ["Small", "Medium", "Large"],
+            "prices": { "Small": 6.0, "Medium": 6.5, "Large": 7.0 }
+        },
+        {
+            "itemType": "Coffee",
+            "itemName": "Mocha",
+            "type": "Iced",
+            "sizes": ["Small", "Medium", "Large"],
+            "prices": { "Small": 6.0, "Medium": 6.5, "Large": 7.0 }
+        },
+        {
+            "itemType": "Coffee",
+            "itemName": "Flat White",
+            "type": "Hot",
+            "sizes": ["Medium", "Large"],
+            "prices": { "Medium": 6.5, "Large": 7.0 }
+        },
+        {
+            "itemType": "Tea",
+            "itemName": "Green Tea",
+            "type": "Hot",
+            "sizes": ["Small", "Medium", "Large"],
+            "prices": { "Small": 5.0, "Medium": 5.5, "Large": 6.0 }
+        },
+        {
+            "itemType": "Tea",
+            "itemName": "Black Tea",
+            "type": "Hot",
+            "sizes": ["Small", "Medium", "Large"],
+            "prices": { "Small": 5.0, "Medium": 5.5, "Large": 6.0 }
+        },
+        {
+            "itemType": "Tea",
+            "itemName": "Chai Latte",
+            "type": "Hot",
+            "sizes": ["Small", "Medium", "Large"],
+            "prices": { "Small": 6.0, "Medium": 6.5, "Large": 7.0 }
+        },
+        {
+            "itemType": "Tea",
+            "itemName": "Herbal Tea",
+            "type": "Hot",
+            "sizes": ["Small", "Medium", "Large"],
+            "prices": { "Small": 5.5, "Medium": 6.0, "Large": 6.5 }
+        },
+        {
+            "itemType": "Tea",
+            "itemName": "Earl Grey",
+            "type": "Hot",
+            "sizes": ["Small", "Medium"],
+            "prices": { "Small": 5.0, "Medium": 5.5 }
+        },
+        {
+            "itemType": "Tea",
+            "itemName": "Peppermint Tea",
+            "type": "Hot",
+            "sizes": ["Small", "Medium", "Large"],
+            "prices": { "Small": 5.5, "Medium": 6.0, "Large": 6.5 }
+        },
+        {
+            "itemType": "Pastry",
+            "itemName": "Croissant",
+            "type": "Pastry",
+            "prices": 5.0
+        },
+        {
+            "itemType": "Pastry",
+            "itemName": "Cinnamon Roll",
+            "type": "Pastry",
+            "prices": 5.5
+        },
+        {
+            "itemType": "Pastry",
+            "itemName": "Blueberry Muffin",
+            "type": "Muffin",
+            "prices": 5.0
+        },
+        {
+            "itemType": "Pastry",
+            "itemName": "Chocolate Chip Cookie",
+            "type": "Cookie",
+            "prices": 4.5
+        },
+        {
+            "itemType": "Pastry",
+            "itemName": "Apple Turnover",
+            "type": "Pastry",
+            "prices": {
+                "": 5.0
+            }
+        },
+        {
+            "itemType": "Food",
+            "itemName": "Club Sandwich",
+            "type": "Sandwich",
+            "prices": 12.0
+        },
+        {
+            "itemType": "Food",
+            "itemName": "Caprese Salad",
+            "type": "Salad",
+            "prices": 10.0
+        },
+        {
+            "itemType": "Food",
+            "itemName": "Vegetarian Quiche",
+            "type": "Quiche",
+            "prices": 9.5
+        },
+        {
+            "itemType": "Food",
+            "itemName": "Chicken Caesar Wrap",
+            "type": "Wrap",
+            "prices": 11.0
+        },
+        {
+            "itemType": "Food",
+            "itemName": "Spinach and Feta Pie",
+            "type": "Pie",
+            "prices": 10.5
+        }
+    ]
+}
