@@ -59,7 +59,8 @@ const productsData: Product[] = [
 const FeaturedProducts: React.FC = () => {
   return (
     <div id="FeaturedProducts" className="shadow rounded-lg m-4 p-5">
-      <h1 className="text-3xl text-blue-900 font-bold text-center mb-5">Featured Products</h1>
+     <h1 className="text-3xl text-blue-900 font-bold text-center mb-5">🛍️ Featured Products</h1>
+
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
         {productsData.map((product) => (
           <div key={product.id} className="text-center border rounded-lg p-4 shadow">

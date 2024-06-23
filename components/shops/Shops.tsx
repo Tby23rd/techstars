@@ -46,7 +46,8 @@ const storesData: Store[] = [
 const AllStores: React.FC = () => {
   return (
     <div className="p-5">
-      <h1 className="text-3xl text-blue-900 font-bold mb-5">Featured Stores</h1>
+      <h1 className="text-3xl text-blue-900 font-bold mb-5">            🏪 
+      Featured Stores</h1>
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-5 gap-5">
         {storesData.map((store, index) => (
           <div key={index} className="bg-white rounded-lg shadow-md overflow-hidden text-center p-4">

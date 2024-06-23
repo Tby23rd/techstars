@@ -75,7 +75,6 @@ const ShopPage: React.FC = () => {
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-5 gap-5">
         {filteredStores.map((store, index) => (
           <div key={index} className="bg-white rounded-lg shadow-md overflow-hidden text-center p-4">
-            
             <h2 className="text-xl font-bold text-gray-800">{store.name}</h2>
             <p className="text-sm text-gray-600 mt-2">{store.description}</p>
             <p className="text-sm text-gray-600 mt-2 font-bold">{store.location}</p>
