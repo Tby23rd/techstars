@@ -2,12 +2,15 @@
 import React from 'react';
 import Navbar from '../components/Navbar'; 
 import Hero from '../components/Hero';
-import BookRes from '../components/BookRes';
 import Contact from '../components/Contact';
-import OrderPage from '../pages/OrderPage';
 import Testimonials from '../components/Testimonials';
+import FeaturedProducts from '@/components/products/Products';
+
 import Features from '@/components/Features';
 import Footer from '@/components/Footer';
+import '@/app/globals.css';
+import AllStores from '@/components/shops/Shops';
+
 
 const Page: React.FC = () => {
   return (
@@ -15,8 +18,8 @@ const Page: React.FC = () => {
       <Navbar />
       <Hero />
       <Features />
-      <OrderPage/>
-      <BookRes/>
+      <AllStores/>
+      <FeaturedProducts/>
       <Testimonials />  
       <Contact/>
       <Footer />

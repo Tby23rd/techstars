@@ -1,6 +1,6 @@
 const nextConfig = {
     images: {
-        domains: ['www.thecocktaildb.com'],
+
     },
     typescript: {
         tsconfig: {
