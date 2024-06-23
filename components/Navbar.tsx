@@ -9,7 +9,7 @@ const Navbar: React.FC = () => {
   };
 
   return (
-    <nav className="w-full bg-blue-500 text-blue-900 opacity-85 z-50 fixed top-0 left-0">
+    <nav className="w-full bg-blue-500 text-white opacity-85 z-50 fixed top-0 left-0">
     <div className="flex justify-between h-16 items-center container mx-auto px-4">
     <div className="text-2xl md:text-3xl">LocalAve</div>
         <div className="md:hidden cursor-pointer" onClick={() => setMenuOpen(!menuOpen)}>
