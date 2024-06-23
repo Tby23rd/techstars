@@ -21,7 +21,7 @@ const Hero: React.FC = () => {
 
   return (
     <div className="relative h-[600px] md:h-[800px] rounded-lg overflow-hidden flex items-center justify-center md:flex-row md:justify-end pt-16 md:pt-0">
-      <Image src="/images/fashion1.png" alt="Fashion Image" layout="fill" objectFit="cover" className="absolute inset-0 w-full h-full object-cover" />
+      <Image src="/images/h.jpg" alt="Fashion Image" layout="fill" objectFit="cover" className="absolute inset-0 w-full h-full object-cover" />
       <div className="relative text-center shadow-xl rounded-lg m-4 p-4 bg-blue-500 w-[90%] sm:w-3/4 md:w-1/2 md:text-left md:p-5">
         <h1 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold mb-2 sm:mb-4">Discover the Magic of Local Stores</h1>
         <p className="text-md sm:text-lg md:text-xl lg:text-2xl mb-4 sm:mb-8">Explore a world of unique finds and timeless treasures</p>
