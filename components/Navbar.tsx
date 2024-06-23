@@ -11,7 +11,7 @@ const Navbar: React.FC = () => {
   return (
     <nav className="w-full bg-blue-500 text-blue-900 opacity-85 z-50 fixed top-0 left-0">
     <div className="flex justify-between h-16 items-center container mx-auto px-4">
-    <div className="text-2xl md:text-3xl">Logo</div>
+    <div className="text-2xl md:text-3xl">LocalAve</div>
         <div className="md:hidden cursor-pointer" onClick={() => setMenuOpen(!menuOpen)}>
           <div className={`${menuOpen ? "transform rotate-45" : ""} h-1 w-8 bg-white mb-1 transition-transform duration-300`}></div>
           <div className={`${menuOpen ? "transform scale-0" : ""} h-1 w-8 bg-white mb-1 transition-transform duration-300`}></div>

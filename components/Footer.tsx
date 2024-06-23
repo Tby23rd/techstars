@@ -75,7 +75,7 @@ const Footer: React.FC = () => {
       <div className="text-teal-900 mx-4 font-bold text-center mt-4 px-4 py-2">
         <p>&copy; 2024
           <Link href="#" className="text-teal-900 mx-2 font-bold">
-            Made with ❤️ by Resew & Stitch
+            Made with ❤️ by LocalAve
           </Link>
           All rights reserved.
         </p>
