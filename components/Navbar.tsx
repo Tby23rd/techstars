@@ -20,7 +20,7 @@ const Navbar: React.FC = () => {
   };
 
   return (
-    <nav className="bg-white m-2 shadow-md">
+    <nav className="bg-white shadow-md">
       <div className="max-w-6xl mx-auto px-4 py-3 flex justify-between items-center">
         <span 
           className="font-bold text-xl text-blue-600 cursor-pointer"
