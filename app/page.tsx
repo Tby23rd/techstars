@@ -1,6 +1,5 @@
 "use client"
 import React from 'react';
-import Navbar from '../components/Navbar'; 
 import Hero from '../components/Hero';
 import Contact from '../components/Contact';
 import Testimonials from '../components/Testimonials';
@@ -12,7 +11,6 @@ import '@/app/globals.css';
 const Page: React.FC = () => {
   return (
     <>
-      <Navbar />
       <Hero />
       <Features />
       <Testimonials />  

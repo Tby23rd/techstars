@@ -1,13 +1,11 @@
+/** @type {import('next').NextConfig} */
 const nextConfig = {
-    images: {
-
-    },
-    typescript: {
-        tsconfig: {
-            target: 'es2017',
-            // Other compiler options...
-        },
-    },
-};
-
-module.exports = nextConfig;
+    // Your valid configuration options go here
+    reactStrictMode: true,
+    // Remove or correct the 'tsconfig' key
+    // typescript: {
+    //   // Valid TypeScript-related options
+    // }
+  }
+  
+  module.exports = nextConfig
