@@ -28,7 +28,6 @@ const Navbar=() => {
           <PageSearch /> 
         </div>
 
-        {/* Right-side Icons and Button */}
         <div className="flex items-center space-x-2 md:space-x-4 text-sm md:text-base">
           <FaBell size={18} className="hover:text-blue-600 cursor-pointer"
             onClick={() => router.push('/notifications')}
