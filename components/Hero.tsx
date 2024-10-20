@@ -21,7 +21,7 @@ const Hero: React.FC = () => {
 
   return (
     <div className="relative h-[600px] md:h-[800px] rounded-lg overflow-hidden flex items-center justify-center md:flex-row md:justify-end pt-16 md:pt-0">
-    <Image src="/images/neurodiversity.jpg" alt="Neurodiversity Support" layout="fill" objectFit="cover" className="absolute inset-0 w-full h-full object-cover" />
+    <Image src="/images/mw.jpg" alt="Neurodiversity Support" layout="fill" objectFit="cover" className="absolute inset-0 w-full h-full object-cover" />
     <div className="relative text-center shadow-xl rounded-lg m-4 p-4 text-white bg-blue-600 w-[90%] sm:w-3/4 md:w-1/2 md:text-left md:p-5">
       <h1 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold mb-2 sm:mb-4">Empower Neurodiversity, Elevate Your Workplace</h1>
       <p className="text-md sm:text-lg md:text-xl lg:text-2xl mb-4 sm:mb-8">Unlock the potential of neurodivergent employees with the right support tools.</p>

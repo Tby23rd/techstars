@@ -27,7 +27,7 @@ const ContactUs: React.FC = () => {
         
         <div className="hidden md:block md:w-1/2 m-4 ">
           <Image
-            src="/images/fashion1.png"
+            src="/images/wo.jpg"
             alt="Latte"
             width={500}
             height={200}

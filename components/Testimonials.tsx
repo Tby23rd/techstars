@@ -14,14 +14,14 @@ interface Testimonial {
 }
 
 const testimonialsData: Testimonial[] = [
-  { id: '1', businessName: 'Inclusive Solutions', imageUrl: '/images/logo1.webp', comment: 'Our neurodivergent employees feel more supported and productive thanks to this app!' },
-  { id: '2', businessName: 'Diversity Matters', imageUrl: '/images/logo3.webp', comment: 'A game changer for our DEI initiatives. The app has truly elevated our workplace inclusivity.' },
-  { id: '3', businessName: 'Neuro-Innovate', imageUrl: '/images/logo1.webp', comment: 'We’ve seen a noticeable reduction in absenteeism since adopting the app.' },
-  { id: '4', businessName: 'Focus Forward', imageUrl: '/images/logo4.webp', comment: 'Highly recommend for any organization looking to better support neurodivergent talent.' },
-  { id: '5', businessName: 'Cognitive Care', imageUrl: '/images/logo1.webp', comment: 'Fantastic tool for improving communication and time management within our team.' },
-  { id: '6', businessName: 'Mindful Workspaces', imageUrl: '/images/logo2.webp', comment: 'An excellent resource for creating a truly inclusive work environment.' },
-  { id: '7', businessName: 'NeuroSync', imageUrl: '/images/logo1.webp', comment: 'The best decision we made to boost employee engagement and retention.' },
-  { id: '8', businessName: 'Inclusive Impact', imageUrl: '/images/logo3.webp', comment: 'Amazing support and the perfect addition to our DEI toolkit.' },
+  { id: '1', businessName: 'Inclusive Solutions', imageUrl: '/images/g.jpg', comment: 'Our neurodivergent employees feel more supported and productive thanks to this app!' },
+  { id: '2', businessName: 'Diversity Matters', imageUrl: '/images/t.jpg', comment: 'A game changer for our DEI initiatives. The app has truly elevated our workplace inclusivity.' },
+  { id: '3', businessName: 'Neuro-Innovate', imageUrl: '/images/m.jpg', comment: 'We’ve seen a noticeable reduction in absenteeism since adopting the app.' },
+  { id: '4', businessName: 'Focus Forward', imageUrl: '/images/g.jpg', comment: 'Highly recommend for any organization looking to better support neurodivergent talent.' },
+  { id: '5', businessName: 'Cognitive Care', imageUrl: '/images/w1.png', comment: 'Fantastic tool for improving communication and time management within our team.' },
+  { id: '6', businessName: 'Mindful Workspaces', imageUrl: '/images/t.jpg', comment: 'An excellent resource for creating a truly inclusive work environment.' },
+  { id: '7', businessName: 'NeuroSync', imageUrl: '/images/m.jpg', comment: 'The best decision we made to boost employee engagement and retention.' },
+  { id: '8', businessName: 'Inclusive Impact', imageUrl: '/images/g.jpg', comment: 'Amazing support and the perfect addition to our DEI toolkit.' },
 ];
 
 
