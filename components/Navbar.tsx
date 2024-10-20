@@ -45,7 +45,6 @@ const Navbar: React.FC = () => {
           </button>
         </div>
 
-        {/* User actions */}
         <div className="flex items-center space-x-2 md:space-x-4 text-sm md:text-base">
           <FaBell 
             size={18} 
