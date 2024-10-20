@@ -68,13 +68,13 @@ const Footer: React.FC = () => {
         </div>
       </div>
       <div className="border-t-2 mt-4 px-4 py-2">
-        <p className="text-teal-900 text-center italic">
+        <p className="text-blue-900 text-center italic">
           In the spirit of reconciliation, we acknowledge that we live, work, and play on the traditional territories of the Blackfoot Confederacy (Siksika, Kainai, Piikani), the Tsuut’ina, the îethka Nakoda Nations (Chiniki, Bearspaw, Goodstoney), the Otipemisiwak Métis Government (Districts 5 and 6), and all people who make their homes in the Treaty 7 region of Southern Alberta.
         </p>
       </div>
-      <div className="text-teal-900 mx-4 font-bold text-center mt-4 px-4 py-2">
+      <div className="text-blue-900 mx-4 font-bold text-center mt-4 px-4 py-2">
         <p>&copy; 2024
-          <Link href="#" className="text-teal-900 mx-2 font-bold">
+          <Link href="#" className="text-blue-900 mx-2 font-bold">
             Made with ❤️ by PromptAI
           </Link>
           All rights reserved.
