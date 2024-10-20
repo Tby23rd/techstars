@@ -28,9 +28,9 @@ const ADHDTaskManager: React.FC = () => {
   useEffect(() => {
     // Generate an initial task
     const startTime = new Date();
-    startTime.setHours(9, 0, 0, 0); // Set to 9:00 AM
+    startTime.setHours(12, 0, 0, 0); // Set to 9:00 AM
     const endTime = new Date(startTime);
-    endTime.setHours(12, 0, 0, 0); // Set to 12:00 PM
+    endTime.setHours(19, 0, 0, 0); // Set to 12:00 PM
 
     const initialTask: Task = {
       id: '1',
