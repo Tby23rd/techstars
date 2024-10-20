@@ -89,13 +89,13 @@ const Navbar: React.FC = () => {
         <div className="md:hidden pb-4">
           <button 
             onClick={() => handleNavigation('/')}
-            className="block py-2 hover:text-blue-600"
+            className="block font-bold py-2 hover:text-blue-600"
           >
             Home
           </button>
           <button 
             onClick={() => handleNavigation('/tasks')}
-            className="block py-2 hover:text-blue-600"
+            className="block py-2 font-bold hover:text-blue-600"
           >
             Tasks
           </button>
