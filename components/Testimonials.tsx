@@ -14,15 +14,16 @@ interface Testimonial {
 }
 
 const testimonialsData: Testimonial[] = [
-  { id: '1', businessName: 'Vintage Vibes', imageUrl: '/images/logo1.webp', comment: 'The virtual mall has greatly increased our reach and customer base!' },
-  { id: '2', businessName: 'Thrift Treasures', imageUrl: '/images/logo3.webp', comment: 'We love the ease of use and the supportive community.' },
-  { id: '3', businessName: 'Retro Finds', imageUrl: '/images/logo1.webp', comment: 'Our sales have doubled since joining the virtual mall!' },
-  { id: '4', businessName: 'Classic Couture', imageUrl: '/images/logo4.webp', comment: 'Highly recommend for any small business looking to grow online.' },
-  { id: '5', businessName: 'Second Chance', imageUrl: '/images/logo1.webp', comment: 'Fantastic platform with excellent customer support.' },
-  { id: '6', businessName: 'Eco Chic', imageUrl: '/images/logo2.webp', comment: 'A great way to reach eco-conscious customers.' },
-  { id: '7', businessName: 'Timeless Threads', imageUrl: '/images/logo1.webp', comment: 'The best decision we made for our business.' },
-  { id: '8', businessName: 'Vintage Vault', imageUrl: '/images/logo3.webp', comment: 'Amazing exposure and a wonderful community of sellers.' },
+  { id: '1', businessName: 'Inclusive Solutions', imageUrl: '/images/logo1.webp', comment: 'Our neurodivergent employees feel more supported and productive thanks to this app!' },
+  { id: '2', businessName: 'Diversity Matters', imageUrl: '/images/logo3.webp', comment: 'A game changer for our DEI initiatives. The app has truly elevated our workplace inclusivity.' },
+  { id: '3', businessName: 'Neuro-Innovate', imageUrl: '/images/logo1.webp', comment: 'We’ve seen a noticeable reduction in absenteeism since adopting the app.' },
+  { id: '4', businessName: 'Focus Forward', imageUrl: '/images/logo4.webp', comment: 'Highly recommend for any organization looking to better support neurodivergent talent.' },
+  { id: '5', businessName: 'Cognitive Care', imageUrl: '/images/logo1.webp', comment: 'Fantastic tool for improving communication and time management within our team.' },
+  { id: '6', businessName: 'Mindful Workspaces', imageUrl: '/images/logo2.webp', comment: 'An excellent resource for creating a truly inclusive work environment.' },
+  { id: '7', businessName: 'NeuroSync', imageUrl: '/images/logo1.webp', comment: 'The best decision we made to boost employee engagement and retention.' },
+  { id: '8', businessName: 'Inclusive Impact', imageUrl: '/images/logo3.webp', comment: 'Amazing support and the perfect addition to our DEI toolkit.' },
 ];
+
 
 const Testimonials: React.FC = () => {
   const settings = {

@@ -1,47 +1,47 @@
 import React from 'react';
 import {
-  Store as StoreIcon,
-  ShoppingBasket as ShoppingBasketIcon,
-  LocalOffer as LocalOfferIcon,
-  VerifiedUser as VerifiedUserIcon,
-  LocalShipping as LocalShippingIcon,
-  ThumbUp as ThumbUpIcon,
-  Place as LocalIcon,
+  Support as SupportIcon,
+  AccountTree as WorkflowIcon,
+  History as RetentionIcon,
+  Lightbulb as InsightsIcon,
+  Diversity3 as DiversityIcon,
+  Hotel as AccommodationsIcon,
 } from '@mui/icons-material';
 
 const Features: React.FC = () => {
   const featureData = [
     {
-      title: 'Diverse Stores',
-      description: 'Explore a variety of vintage and thrift stores, all in one convenient virtual mall.',
-      icon: <StoreIcon className="text-4xl" />,
+      title: 'Neurodiversity Support',
+      description: 'Provide tailored tools and resources to support neurodivergent employees in the workplace.',
+      icon: <SupportIcon className="text-4xl" />,
     },
     {
-      title: 'Easy Shopping',
-      description: 'Shop easily with our user-friendly interface that brings you closer to unique finds.',
-      icon: <ShoppingBasketIcon className="text-4xl" />,
+      title: 'Inclusive Workflows',
+      description: 'Optimize productivity and workflows for neurodivergent employees with personalized features.',
+      icon: <WorkflowIcon className="text-4xl" />,
     },
     {
-      title: 'Exclusive Offers',
-      description: 'Take advantage of special deals and discounts available only in our virtual mall.',
-      icon: <LocalOfferIcon className="text-4xl" />,
+      title: 'Employee Retention',
+      description: 'Reduce absenteeism and turnover by addressing neurodiversity in your DEI strategy.',
+      icon: <RetentionIcon className="text-4xl" />,
     },
     {
-      title: 'Convenient Shipping',
-      description: 'Enjoy hassle-free shipping options tailored to meet your needs.',
-      icon: <LocalShippingIcon className="text-4xl" />,
+      title: 'Data-Driven Insights',
+      description: 'Gain valuable insights into how neurodivergent employees perform and contribute to your team.',
+      icon: <InsightsIcon className="text-4xl" />,
     },
     {
-      title: 'Community Support',
-      description: 'Support small businesses and join a community that values sustainability and uniqueness.',
-      icon: <ThumbUpIcon className="text-4xl" />,
+      title: 'Customized Accommodations',
+      description: 'Offer custom accommodations to empower neurodivergent individuals to succeed in their roles.',
+      icon: <AccommodationsIcon className="text-4xl" />,
     },
     {
-      title: 'Local Shops',
-      description: 'Discover and support local vintage and thrift shops in your area.',
-      icon: <LocalIcon className="text-4xl" />,
+      title: 'Workplace Inclusion',
+      description: 'Foster a truly inclusive environment by making neurodiversity part of your core DEI strategy.',
+      icon: <DiversityIcon className="text-4xl" />,
     },
   ];
+  
 
   return (
     <div>
