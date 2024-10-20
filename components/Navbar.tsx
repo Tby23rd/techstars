@@ -23,10 +23,10 @@ const Navbar: React.FC = () => {
     <nav className="bg-white shadow-md">
       <div className="max-w-6xl mx-auto px-4 py-3 flex justify-between items-center">
         <span 
-          className="font-bold text-xl text-blue-600 cursor-pointer"
+          className="font-bold capitalize text-xl text-blue-600 cursor-pointer"
           onClick={() => handleNavigation('/')}
         >
-          ADHD Task Manager
+          Neurvana
         </span>
 
         {/* Desktop menu */}

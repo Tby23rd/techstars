@@ -137,6 +137,10 @@ const ADHDTaskManager: React.FC = () => {
     }
   };
 
+  // Function to calculate page number for regular tasks
+  const totalPages = 10; // Assume each task is divided into 10 pages of progress
+  const getPageNumber = (progress: number) => Math.ceil((progress / 100) * totalPages);
+
   return (
     <div className="max-w-6xl mx-auto p-4 bg-gray-100 rounded-lg shadow-md relative">
       <h1 className="text-2xl md:text-3xl font-bold mb-4">ADHD-Friendly Task Manager</h1>
@@ -185,6 +189,19 @@ const ADHDTaskManager: React.FC = () => {
             </div>
             <p className="text-sm text-gray-500">Last updated: {task.lastUpdate.toLocaleTimeString()}</p>
             <p className="text-sm font-medium mt-2">Status: {task.isActive ? 'Active' : 'Paused'}</p>
+
+            {/* Show progress message for regular tasks */}
+            {!task.isAdhoc ? (
+              <p className="mt-2 text-sm font-medium">
+                You are on page {getPageNumber(task.progress)} of {totalPages} of the progress report.
+              </p>
+            ) : (
+              // Show a different message for adhoc tasks
+              <p className="mt-2 text-sm font-medium text-yellow-600">
+                Adhoc task in progress.
+              </p>
+            )}
+
             {task.isAdhoc && (
               <span className="mt-2 inline-block bg-yellow-200 rounded-full px-3 py-1 text-sm font-semibold text-yellow-700">
                 Adhoc
